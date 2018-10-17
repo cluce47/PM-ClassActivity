@@ -2,11 +2,9 @@
  * ex) a car is moving at 5 m/s, when will it travel 4km?
  */
  
-class Main {
-  //TODO add variables to rep velocity and distance
-  //TODO create method to return time
-  public static void main(String[] args) {
-    //TODO create an object for a question
-    //TODO call a method to print the time
-  }
-}
+Prototype:
+Create variables to represent velocity and distance
+Create method with parameter time and set time to velocity over distance
+return time in method
+
+main method to display results
