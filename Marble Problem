@@ -4,3 +4,25 @@ Q: How many marbles are there in total?
 - one fourth are green
 - one half are yellow
 - rest are white (16)
+
+MATHMEMATICAL SOLUTION:
+
+Givens: 
+0.05 of 1 = black
+0.25 of 1 = green
+0.50 of 1 = yellow
+rest (0.20 of 1) = white (16 total marbles)
+
+every 0.20 is worth 16 marbles
+
+step 1: divide 16 by 4 (sicne black has the smallest contribution)
+
+step 2: now with the fact that 1/4 of 16 is 4 and 1/4 of 0.2 if 0.05 is equal to 4 marbles. we now know that there are 4 black marbles.
+
+step 3: now moving to get the total number of marbles for green, and knowing that 0.05 = 4 marbles, take 0.25 and divide by 0.05, and take the resulting number, multiply 4 by that to get total marble count of green.
+
+step 4: take resulting number (5) and multiply it by 4. now you have 20 total green marbles.
+
+step 5: use the same technique to get yellow (which is 0.5) which is half of the bag. ( 0.5/0.05 = 10 ) -> 10*4 = 40 
+
+step 6: add total marbles together (20+40+4+16 = 80 marbles)
