@@ -1,0 +1,12 @@
+/* Find the time the object will reach the target distance (in km) when a object is moving at x m/s.
+ * ex) a car is moving at 5 m/s, when will it travel 4km?
+ */
+ 
+class Main {
+  //TODO add variables to rep velocity and distance
+  //TODO create method to return time
+  public static void main(String[] args) {
+    //TODO create an object for a question
+    //TODO call a method to print the time
+  }
+}
