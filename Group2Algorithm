@@ -1,7 +1,7 @@
-int number = 10^11 - 1
-string #digits = length ( string(number) )
+int number equals 10^11 - 1
+string #digits equals length ( string(number) )
 for (i = 0, i < #digits, add 1 to i)
-  digit = number mod 10
-  sum of digits += digit
+  digit equals number mod 10
+  add digit to sum of digits digit
   
 print (sum of digits)
