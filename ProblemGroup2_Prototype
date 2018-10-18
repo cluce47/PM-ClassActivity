@@ -1,5 +1,6 @@
 //Find the sum of the digits 10 ^11 - 1
-
+//import math 
 /*What it will look like:
+answer=10^11-1
   *Sum of all digits in 10^11-1 is: (answer)
   */
