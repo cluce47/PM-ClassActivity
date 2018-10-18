@@ -3,8 +3,9 @@
  */
  
 Prototype:
-Create variables to represent velocity and distance
+Create variables to represent speed and distance
 Create method with parameter time and set time to velocity over distance
 return time in method
+Input speed and distance
 
 main method to display results
