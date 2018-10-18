@@ -1,5 +1,5 @@
 CODE Funcionality:
-set every possible equation to it's own variable (e.x 1+15, 1+14, 1+13, etc.), check to see which ones equal to 15.
-take all the possible sums that add to 15, and add them to an array, this way we can keep all of the needed equations in one spot
+Loop through 1 to 15, which adds all the numbers before it (e.g. 1,2,3,4,5 1+2+3+4+5 = 15)
+check if it is 15, if it is, save that number in an array.
 insert a print statement that will print out all of the variables in the array. 
 insert a print statement that will print out the length of the array showing how many equations match the criteria.
