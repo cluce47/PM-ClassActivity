@@ -1,0 +1,6 @@
+Algorithm 
+Step 1: Initialize make the distance traveled the variable 'd', and speed of the object 's'
+Step 2: Get user to input 'd' in meters and 's' in meters per second values 
+Step 3: create method called TimeCalc with the parameters including 'd', 's'
+Step 4: calculate and return finial time (d/s = time)
+Step 5: Call method within a print statement to output the time 
