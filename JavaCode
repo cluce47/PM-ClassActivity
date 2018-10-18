@@ -1,0 +1,11 @@
+class Main {
+  public static void main(String[] args) {
+
+ 
+int answer; 
+
+    answer = (3+3 +(3*3*3)); 
+    System.out.println (answer); 
+    System.out.println ("Thus, total of two (+) signs were used");    
+  }
+}
