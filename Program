@@ -1,0 +1,14 @@
+class Main {
+  public static void main(String[] args) {
+    int number = (int) Math.pow(10, 6) - 1; //can't go up to 10^11 - 1 (integer too big); fix later
+    String length = "" + number;
+    int digits = length.length();
+    int sum = 0;
+
+    for (int i = 0; i < digits; i++) {
+      int digit = number % 10;
+      sum += digit;
+    }
+    System.out.println(sum);
+  }
+}
