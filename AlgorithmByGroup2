@@ -6,7 +6,7 @@ algorithm
 3. Create another variable wich is a double to store the a value
 4. Create another variable to store the y value of the vertex (0.75)
 5. Create another variable to store 1 as the x value when the sprinkler hits the wall
-6. the equation : a = y / ((0.15)(0.75-1.5)) to find the a vlue which is -1.333
+6. the equation : a = y / ((0.75)(0.75-1.5)) to find the a vlue which is -1.333
 7.use the equation height  = -1.333(1-0)(1-1.5) should equal 0.666
 8. Output the result that 0.666 is the height in which the sprinkler hits the wall
 
