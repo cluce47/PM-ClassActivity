@@ -1,0 +1,2 @@
+do 3! + 3^3 (shoudl equal 33)
+output 1 (number of plus signs in equation)
