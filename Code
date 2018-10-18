@@ -1,0 +1,26 @@
+import java.util.*;
+public class JavaApplication2 {
+
+
+    public static void main(String[] args) {
+        Scanner user_input = new Scanner(System.in);
+        
+        System.out.print ("How far will the car be travelling? (in meters)");
+        
+        int d = user_input.nextInt();
+        
+        System.out.println("Now, please enter how fast the car will be travelling: (in seconds)");
+        
+        int s = user_input.nextInt();
+        
+        System.out.println (d/s "is the amount of time needed.");
+        
+
+        
+        
+        
+    }
+    
+}
+
+Note: unfinished, had to rush the end.
