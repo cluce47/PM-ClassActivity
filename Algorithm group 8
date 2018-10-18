@@ -3,4 +3,4 @@ Step 2: Assign each coulour their value in terms of total
 Step 3: 1 - (black+green+yellow) to find number of white marbles in terms of total
 Step 4: Answer from step 3 is equal to number of white marbles (16)
 Step 5: Total = 16*(1/answer of step 3)
-Step 6: print Total nunber of marbles
+Step 6: print Total nunber of marbles.
