@@ -1,0 +1,7 @@
+int number = 10^11 - 1
+string #digits = length ( string(number) )
+for (i = 0, i < #digits, add 1 to i)
+  digit = number mod 10
+  sum of digits += digit
+  
+print (sum of digits)
