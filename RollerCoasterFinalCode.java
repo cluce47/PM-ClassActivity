@@ -2,6 +2,10 @@ import java.math.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
+
+/* Thanuja / Victor
+Code that solves for vertex of standard form quadratic.
+*/
 class Main {
   public static List makeVertex(double sA, double sB, double sC) {
     double vA = sA; // y = a(x - k)^2 + c
