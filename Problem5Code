@@ -7,5 +7,3 @@ class Main {
     System.out.println("The time elapsed is " + time + " second. ");
   }
 }
-//Would need to have actual solving in code as well
-//Having comments for how each step was achieved would make the code more user friendly.
