@@ -1,26 +1,13 @@
-import java.util.*;
-public class JavaApplication2 {
+public class Main {
+  
+    public static void main(String[] args){
 
-
-    public static void main(String[] args) {
-        Scanner user_input = new Scanner(System.in);
-        
-        System.out.print ("How far will the car be travelling? (in meters)");
-        
-        int d = user_input.nextInt();
-        
-        System.out.println("Now, please enter how fast the car will be travelling: (in seconds)");
-        
-        int s = user_input.nextInt();
-        
-        System.out.println (d/s "is the amount of time needed.");
+       int velocity  = 5; 
+        int distance = 4000; 
+         int time = distance/ velocity ; 
         
 
-        
-        
-        
+        System.out.println ("The time is "+ time + " seconds "); 
     }
     
 }
-
-Note: unfinished, had to rush the end.
