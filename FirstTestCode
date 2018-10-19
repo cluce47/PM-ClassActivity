@@ -1,0 +1,26 @@
+class Main {
+ public static void main(String[] args) {
+   int z = 0;
+   int x = 0;
+   int v = 15;
+   int[] list = new int[6];
+   for (int y = 1; y <= v; y++) {
+     z += y;
+     x += 1;
+     list[x] = y;
+     if (z == v) {
+       break;
+     } else {
+       continue;
+     }
+   }
+   v = (v + 1) / 2;
+   System.out.print(v - 1 + " " + v + " are a pair of consecutive integers and ");
+   for (int q = 0; q < list.length; q++) {
+     System.out.print(list[q] + " ");
+   }
+   System.out.println("is another set");
+ }
+}
+
+
