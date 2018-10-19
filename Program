@@ -2,7 +2,7 @@ import java.math.BigInteger;
 
 class Main {
   public static void main(String[] args) {
-    //original algorthm didn't take into account that integers can't hold values higher than 2^31 - 1; code written to account for number larger (10^11 - 1)
+    //original algorthm didn't take into account that integers over 2^31 - 1; code rewritten to account for larger num (10^11 - 1)
     
     final int max = (int) (Math.pow(2, 31) - 1);
     int loop = (int) ((Math.pow(10, 11) - 1) / max);
