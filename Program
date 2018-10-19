@@ -1,13 +1,27 @@
+import java.math.BigInteger;
+
 class Main {
   public static void main(String[] args) {
-    int number = (int) Math.pow(10, 6) - 1; //can't go up to 10^11 - 1 (integer too big); fix later
-    String length = "" + number;
-    int digits = length.length();
-    int sum = 0;
+    //original algorthm didn't take into account that integers can't hold values higher than 2^31 - 1; code written to account for number larger (10^11 - 1)
+    
+    final int max = (int) (Math.pow(2, 31) - 1);
+    int loop = (int) ((Math.pow(10, 11) - 1) / max);
+    int remaining = (int) ((Math.pow(10, 11) - 1) % max);
 
+    BigInteger remainder = BigInteger.valueOf(remaining);
+
+    BigInteger num = BigInteger.valueOf(0);
+    for (int i = 0; i < loop; i++)
+      num = num.add(BigInteger.valueOf(max));
+    num = num.add(remainder);
+
+    String str = "" + num;
+    int digits = str.length();
+    
+    BigInteger sum = BigInteger.valueOf(0);
     for (int i = 0; i < digits; i++) {
-      int digit = number % 10;
-      sum += digit;
+      BigInteger digit = num.mod(BigInteger.valueOf(10));
+      sum = sum.add(digit);
     }
     System.out.println(sum);
   }
