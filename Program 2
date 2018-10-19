@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("time taken by slower train: x-1");
+    System.out.println("time taken by faster train: 1.5y");
+      
+    
+    double y=2;
+    double x=1.5*y;
+    System.out.println("The faster train went "+ y + "hours, and the slower train went "+ x+ "hours");
+
+
+  }
+}
