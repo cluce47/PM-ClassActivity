@@ -1,0 +1,10 @@
+create variable numOfPlus
+create variable term1
+create variable term3
+
+set term1 equal to 3!
+set term2 equal to 3^3
+add term1 to term2 (should be 33)
+add one to numOfPlus
+
+output numOfPlus
