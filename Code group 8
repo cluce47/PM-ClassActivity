@@ -1,12 +1,21 @@
+//This code will solve for the height of which the water hits the wall (quadratic)
+
 class Main {
   public static void main(String[] args) {
     double h;
+    /*
     double a;
     double y = 0.75;
 
     a = y/((0.75)*(0.75-1.5));
     System.out.println(a);
     h= a*(1)*(1-1.5);
-    System.out.println("The heighth at which the water hits the wall is "+ h);
+    */
+    h = (0.75/((0.75)*(0.75-1.5)))*(1)*(1-1.5);
+    
+
+    h = (double) Math.round(h*100)/100;
+
+    System.out.print("The height at which the water hits the wall is "+ h + " metres.");
   }
 }
