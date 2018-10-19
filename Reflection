@@ -1,0 +1,6 @@
+Since the code sucessfully solved the problem, it should be released.
+No changes were made in the code; the original prototype and algorithm were implemented and the code was not later revised.
+The program isn't very user-friendly as the output statement only includes the answer (not an explanation of what the answer means),
+and does not allow for user input.
+To improve, add comments, a description of what the program does, and an explanation in the output to explain what it means.
+No documentation is missing.
