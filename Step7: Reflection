@@ -1,1 +1,4 @@
 They did not answer the question properly, they were missing one of the possible answers. When they wrote the code they only solved for two possible answers, not checking if there were any more. They simply found the first set that worked, and a set that would work on any odd integer. By doing this they missed one answer, and if it were a different odd integer or simply an even integer it would not work to solve it.
+-would not relaease because it is very inefficient and does not 100% correctly solve the math problem
+-yes it can be improved to make it more effient (e.g, fewer variables) and make sure that it is able to check for all sums (program skipped 4,5,6)
+-there is no documentation so it is not very user friendly 
