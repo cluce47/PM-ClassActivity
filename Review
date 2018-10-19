@@ -1,0 +1,8 @@
+Does the program solve the original problem?
+  Yes, it solves the original problem by using distance-time-speed formula.
+Is it user friendly?
+  No, because there aren't any user inputs, so if one wanted to get a new time for distance/speed,
+  they would have to edit the code, which is not very user friendly.
+should it be relasesed? 
+  Definitely not. The code has constant values so if the user wants to solve this same type of problem but with 
+  different values the user will have  to go into the physical code to change the values.
