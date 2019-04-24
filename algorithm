@@ -1,0 +1,12 @@
+x respresnts the time of the slower train
+y represents the time of the faster train
+ y= x-1
+x= 1.5y 
+ create a system of equations and solve for time 
+ //y=1.5y-1
+//0.5y=1
+//y=2
+ //x=1.5(2)
+//x=3 
+ //create float varaible x and set equal to 3 and create float variable y and set equal to 2 
+print "The slower train takes" + x + " seconds and the faster train takes " + y " seconds." 
